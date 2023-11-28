@@ -4,6 +4,9 @@ from PIL import Image
 import numpy as np
 import os
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # Folder
 folder = "frames"
 
